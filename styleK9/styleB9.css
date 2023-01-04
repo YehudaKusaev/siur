@@ -1,0 +1,133 @@
+
+*{
+    box-sizing: border-box;
+}
+body {
+
+    background-color: aquamarine;
+    direction: rtl;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 100vh; */
+    height: 100%;
+ 
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+
+}
+
+.heaader1 {
+    justify-content: space-between;
+    display: flex;
+
+
+    margin: 0;
+    align-items: baseline;
+}
+
+ul>li {
+    /* gap: 2em; */
+    /* margin-left: 1em; */
+    /* border: 3px solid black; */
+    height: 37px;
+    width: 85px;
+    text-align: center;
+
+    padding-top: 1rem;
+
+
+}
+
+
+
+.firstli {
+    width: 113px;
+    align-self: flex-start;
+    flex-grow: 1;
+    height: 37px;
+    background-color: rgba(228, 102, 102, 0.863);
+}
+
+.alon {
+    display: flex;
+    border: 2px solid black;
+    width: 82px;
+    height: 42px;
+    align-self: flex-start;
+
+
+}
+
+footer {
+    background-color: blue;
+    /* width: 100%; */
+    height: 4em;
+    color: aquamarine;
+    text-align: center;
+}
+
+
+
+.matos {
+
+    background-image: url(../image9/cover1.png);
+    width: 100%;
+    height: 344px;
+    background-position: center;
+    /* flex-grow: 1; */
+}
+
+main {
+    background-color: blanchedalmond;
+   height: 12rem;
+}
+
+ .pall{
+
+    text-indent: 1em;
+    font-size: xx-large;
+    margin: 0 auto;
+}
+
+.post{
+
+background-image: url(../image9/parallax1.jpg);
+width: 100%;
+height: 300px;
+background-position: 100%;
+}
+
+nav{
+
+    background-color: blanchedalmond;
+    flex-grow: 1;
+
+}
+.polet{
+background-image: url(../image9/parallax2.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: 100%;
+
+}
+
+nav{
+
+    background-color: blanchedalmond;
+    height: 12rem;  
+}
+
+.alenu{
+
+
+    background-color: blanchedalmond;
+    height: 12rem;
+}
